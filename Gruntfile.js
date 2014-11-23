@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		shell: {
 			exportIcons: {
-				command: 'sketchtool export slices assets/icons.sketch --output=icons/'
+				command: 'sketchtool export slices assets/icons.sketch --output=assets/icons/'
 			}
 		},
 		webfont: {
