@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: bin/sketchtool 1.2 (196) - http://www.bohemiancoding.com/sketch -->
+    <title>edit-24</title>
+    <desc>Created with bin/sketchtool.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Icon-Set-Example" sketch:type="MSArtboardGroup" transform="translate(-168.000000, -72.000000)" fill="#000000">
+            <g id="Edit-24" sketch:type="MSLayerGroup" transform="translate(168.000000, 72.000000)">
+                <path d="M13.699498,2.49949341 C13.699498,1.39492391 12.8040675,0.499493411 11.699498,0.499493411 C10.5949285,0.499493411 9.69949799,1.39492391 9.69949799,2.49949341 L9.69949799,4.49949341 L13.699498,4.49949341 L13.699498,2.49949341 Z M9.69949799,5.49949341 L9.69949799,20.4994934 L11.699498,24.4994934 L13.699498,20.4994934 L13.699498,5.49949341 L9.69949799,5.49949341 Z" id="Pencil" sketch:type="MSShapeGroup" transform="translate(11.699498, 12.499493) rotate(-315.000000) translate(-11.699498, -12.499493) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
