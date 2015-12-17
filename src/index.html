@@ -6,18 +6,20 @@
 		<style>
 			body {
 				margin: 3rem 1.5rem;
-				font: 'Helvetica', 'Segoe UI', Arial, sans-serif;
+				font-family: 'Helvetica', 'Segoe UI', Arial, sans-serif;
 				font-size: 16px;
 				text-align: center;
 			}
 			.button {
 				transition: background-color 0.25s;
+				display: inline-block;
 				margin-right: 0.5em;
 				margin-bottom: 0.5em;
 				border-radius: 3px;
 				border: solid 1px #009900;
 				padding: 0.5em 0.75em;
 				background-color: #33AA00;
+				text-decoration: none;
 				color: #FFF;
 			}
 			.button:hover {
@@ -30,28 +32,33 @@
 			.button-large {
 				font-size: 24px;
 			}
+			.icon {
+				position: relative;
+				top: -2px;
+				margin-right: 0.25em;
+			}
 		</style>
 	</head>
 	<body>
 		<p>
-			<a href="#" class="icon-home-16 icon button">Home</a><!--
-			--><a href="#" class="icon-menu-16 icon button">Menu</a><!--
-			--><a href="#" class="icon-add-16 icon button">Add</a><!--
-			--><a href="#" class="icon-remove-16 icon button">Remove</a><!--
-			--><a href="#" class="icon-star-16 icon button">Star</a><!--
-			--><a href="#" class="icon-search-16 icon button">Search</a><!--
-			--><a href="#" class="icon-edit-16 icon button">Edit</a><!--
-			--><a href="#" class="icon-check-16 icon button">Check</a>
+			<a href="#" class="button"><span class="icon-home-16 icon"></span>Home</a><!--
+			--><a href="#" class="button"><span class="icon-menu-16 icon"></span>Menu</a><!--
+			--><a href="#" class="button"><span class="icon-add-16 icon"></span>Add</a><!--
+			--><a href="#" class="button"><span class="icon-remove-16 icon"></span>Remove</a><!--
+			--><a href="#" class="button"><span class="icon-star-16 icon"></span>Star</a><!--
+			--><a href="#" class="button"><span class="icon-search-16 icon"></span>Search</a><!--
+			--><a href="#" class="button"><span class="icon-edit-16 icon"></span>Edit</a><!--
+			--><a href="#" class="button"><span class="icon-check-16 icon"></span>Check</a>
 		</p>
 		<p>
-			<a href="#" class="icon-home-24 icon button button-large">Home</a><!--
-			--><a href="#" class="icon-menu-24 icon button button-large">Menu</a><!--
-			--><a href="#" class="icon-add-24 icon button button-large">Add</a><!--
-			--><a href="#" class="icon-remove-24 icon button button-large">Remove</a><!--
-			--><a href="#" class="icon-star-24 icon button button-large">Star</a><!--
-			--><a href="#" class="icon-search-24 icon button button-large">Search</a><!--
-			--><a href="#" class="icon-edit-24 icon button button-large">Edit</a><!--
-			--><a href="#" class="icon-check-24 icon button button-large">Check</a>
+			<a href="#" class="button button-large"><span class="icon-home-24 icon"></span>Home</a><!--
+			--><a href="#" class="button button-large"><span class="icon-menu-24 icon"></span>Menu</a><!--
+			--><a href="#" class="button button-large"><span class="icon-add-24 icon"></span>Add</a><!--
+			--><a href="#" class="button button-large"><span class="icon-remove-24 icon"></span>Remove</a><!--
+			--><a href="#" class="button button-large"><span class="icon-star-24 icon"></span>Star</a><!--
+			--><a href="#" class="button button-large"><span class="icon-search-24 icon"></span>Search</a><!--
+			--><a href="#" class="button button-large"><span class="icon-edit-24 icon"></span>Edit</a><!--
+			--><a href="#" class="button button-large"><span class="icon-check-24 icon"></span>Check</a>
 		</p>
 	</body>
 </html>
